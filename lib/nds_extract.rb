@@ -111,10 +111,9 @@ updated_set = []
 
     updated_set.push(movies_with_director_key(source[nameNum][:name],source[nameNum][:movies]))
 
+##old code that worked but didnt leverage other methods
 #    titleNum = 0
 #    while titleNum < source[nameNum][:movies].count do
-
-
 #      updated_set.push([{director_name: source[nameNum][:name], title: source[nameNum][:movies][titleNum][:title]}])
 #      titleNum += 1
 #    end
